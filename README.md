@@ -84,17 +84,17 @@ Use Arrow keys or PgUp/PgDn
 
 You can customize tmux by editing ~/.tmux.conf.  
 
-Example configuration:  
+👉Example configuration:  
 
-# Use Ctrl+a instead of Ctrl+b  
+Use Ctrl+a instead of Ctrl+b  
 unbind C-b  
 set-option -g prefix C-a  
 bind-key C-a send-prefix  
 
-# Enable mouse support  
+👉Enable mouse support  
 set -g mouse on  
 
-# Status bar customization  
+👉Status bar customization  
 set -g status-bg black  
 set -g status-fg green  
 set -g status-left "#S "  
