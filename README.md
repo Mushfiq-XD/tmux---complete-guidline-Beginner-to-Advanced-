@@ -48,7 +48,7 @@ Ctrl+b d
 Kill a session:
 ```
 tmux kill-session -t mysession
-```
+``` 
 
 
 🔹 Step 3: Window Management
