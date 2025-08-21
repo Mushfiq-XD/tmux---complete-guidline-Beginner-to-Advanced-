@@ -8,36 +8,47 @@ This repository contains a step-by-step guide for tmux, starting from installati
 
 
 On Ubuntu/Debian:  
+```
 sudo apt update && sudo apt install tmux -y  
-
+```
 On Fedora/CentOS:
+```
 sudo dnf install tmux -y
-
+```
 Check installed version:
+```
 tmux -V
-
+```
 
 🔹 Step 2: Session Management
 
 👉 A session is like a container where your terminal environment runs.
 
 Start a new session:  
+```
 tmux
+```
   
 Start with a custom name:
+```
 tmux new -s mysession
-
+```
 List all sessions:
+```
 tmux ls
-
+```
 Attach to a session:
+```
 tmux attach -t mysession
-
+```
 Detach from a session (keep running in background):
+```
 Ctrl+b d
-
+```
 Kill a session:
+```
 tmux kill-session -t mysession
+```
 
 
 🔹 Step 3: Window Management
