@@ -135,3 +135,10 @@ Copy mode → Ctrl+b [
 tmux is a powerful tool that allows you to manage multiple terminal sessions, windows, and panes efficiently.
 By learning its basics and advanced features, you can significantly improve productivity in Linux environments.
 
+
+##  Resources
+
+You can download the full guide in PDF format:  
+
+- [tmux Complete Guideline (Beginner to Advanced) — PDF](tmux%20-%20complete%20guidline.pdf)  
+
